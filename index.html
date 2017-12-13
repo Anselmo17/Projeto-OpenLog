@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Open Log</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	
+</head>
+	<body>
+
+				<!--campos do formulário de login e senha -->
+				<div class="janela-login">
+					<div class="row">
+						<img src="img/logo1.png" alt="logo" class="col-sm-4 img-responsive logo">
+						<h1 class="ls-login-logo titulo col-sm-8">OpenLog</h1>
+					</div>
+					<form role="form" id="form-senha">
+						<fieldset>
+							 <div class="form-group">
+							    <label for="login" class="usuario-login">Usuário:</label>
+							    <input type="email" class="form-control input-lg" id="login" placeholder="Digite seu email" required>
+							 </div>
+			 
+							<div class="form-group ls-login-password">
+								<label for="senha" class="usuario-login">Senha:</label>
+								<input class="form-control ls-login-bg-password input-lg" id="senha" type="password" aria-label="Senha" placeholder="Digite a sua senha" maxlength="8">
+							</div>
+								<input type="submit" value="Entrar" class="btn btn-primary btn-lg btn-block botao-entrar" onclick="ValidaLogin()">
+								<a href="#" class="ls-login-forgot">Esqueci minha senha</a>
+						</fieldset>
+					</form><!--fim do formulário-->
+				</div><!--caixa login-->
+			
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>	
+		<script src="js/script.js"></script>
+	</body>
+</html>

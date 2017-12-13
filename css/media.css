@@ -1,0 +1,149 @@
+
+
+/*fazer mudanças quando chegar a 750px */
+@media screen and (max-width: 750px){
+
+	.janela-login{
+		margin-right: 4%;
+		margin-left: 4%;
+	}
+}
+
+/***********tamanho minimo para mudar **********/
+@media screen and (min-width: 768px){
+
+	.logo-letra{
+		display: none;
+	}
+}
+
+
+/*************tamanho máximo para mudar ************/
+@media screen and (max-width: 768px){
+
+	
+	.letra-icone{
+		display: none;
+	}
+
+	.separa{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	}
+
+
+
+
+}
+
+/*************tamanho máximo para mudar ************/
+@media screen and (max-width: 600px){
+
+	
+	.indica{
+		font-size: 1.2em;
+	}
+}
+
+/****************tamanho máximo para mudar ***********/
+@media screen and (max-width: 570px){
+
+		.indica{
+			padding: 5px;
+			width: 90%;
+		}
+
+
+}
+
+
+/***********tamanho maximo 330px**********/
+@media screen and (max-width: 600px){
+	#botao{
+	font-size: 0.8em;
+	text-align: center;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 440px){
+
+		.tamanho td{
+	font-size: 0.6em;
+	}
+}
+
+
+
+
+/*************tamanho máximo para mudar ************/
+@media screen and (max-width: 600px){
+
+	
+	.botao-produto{
+	width: 20%;
+	margin-left: 30%;
+	}
+}
+
+
+
+/***********tamanho maximo 330px**********/
+@media screen and (max-width: 580px){
+	.botao{
+	font-size: 0.7em;
+	text-align:center;
+	}
+}
+
+
+
+/***********tamanho maximo 420px**********/
+@media screen and (max-width: 420px){
+	.botao{
+	font-size: 0.6em;
+	width: 50%;
+	}
+}
+
+
+/***********tamanho maximo 480px**********/
+@media screen and (max-width: 480px){
+	.software p{
+	text-align: justify;
+	font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 370px){
+	
+
+	.botao-produto{
+		width: 80%;
+		margin-left: 2%;
+		font-size: 0.8em;
+		margin-bottom: 1%;
+	}
+
+}
+
+
+@media screen and (max-width: 565px){
+	
+
+
+.tabela-Contatos td{
+	 font-size: 0.6em;
+	}
+	
+	.botao-contatos{
+		font-size: 0.7em;
+	}
+}
+
+
+
+

@@ -1,0 +1,93 @@
+
+/************menu****************/
+.cor{
+background: #1E90FF;
+}
+
+.menu{
+	margin-left: 15px;
+	font-size: 1.5em;
+background-color: #1E90FF;
+}
+
+.menu-letras{
+	color: white;
+margin-left: 35%;
+}
+
+.logo{
+	margin-left: 0px;
+	margin-top: -10px;
+	float: left;
+}
+
+.logo-letra{
+	float:left; 
+}
+
+.letra-icone{
+	float: left;
+	margin-top: 0px;
+	margin-left: -1%;
+	font-size: 1.5em;
+	position: absolute;
+}
+
+/*************titulo de indicadores**********************/
+.indica{
+	padding: 5px;
+	font-size: 2em;
+background-color: orange;
+width: 50%;
+border-top-right-radius:45px;
+height: 100%;
+}
+
+.indica-1{
+	width: 90%;
+}
+
+
+/*********carrossel************/
+.controle-carrossel{
+	width: 100%;
+	max-width:1300px;
+	border:5px solid black;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icone-seta{
+	background: black;
+}
+
+.separa{
+	margin-bottom: 2%;
+	}
+
+
+/************seção *****************/
+.secao{
+	margin-top: 2%;
+}
+
+.artigo p{
+	text-align: justify;
+	padding: 10px;
+	font-weight: bold;
+ font-size: 1.2em;
+}
+
+/**********rodape**************/
+.rodape{
+	background-color: #1E90FF;
+	padding: 10px;
+	font-size: 2em;
+	width: 100%;
+	text-shadow: 2px 2px black;
+	color:white;
+	height: 2%;
+}
+
+

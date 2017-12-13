@@ -1,0 +1,21 @@
+
+@media screen and (min-width: 540px){
+	
+	.tamanho-tabela{
+	width: 95%;
+	font-size: 1em;
+	}
+}
+
+
+
+@media screen and (max-width: 530px){
+
+		.tamanho td{
+	font-size: 0.6em;
+	}
+
+	.botao-excluir{
+		font-size: 0.8em;
+	} 
+}

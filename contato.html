@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/contato.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+<body>
+
+	<header class="nav navbar-default cor">
+			<div class="container ">
+					<div class="navbar-header menu ">
+			    	 	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-ligacao" aria-expanded="false">
+				       		 <span class="sr-only">Toggle navigation</span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				      	</button>
+				      	<a class="navbar-brand menu-letras logo"><img src="img/logo3.png" alt="logo da pagina"></a>
+				      	<a class="navbar-brand menu-letras letra-icone">OpenLog</a>
+				      	<a class="navbar-brand menu-letras logo-letra "> OpenLog</a>
+				    </div><!--botão para acionar menu mobile-->
+
+					 <div class="collapse navbar-collapse menu" id="menu-ligacao">    
+						<ul class="nav navbar-nav  menu-letras">
+							<li><a href="home.html">Home</a></li>
+							<li><a href="Produtos.html">Produtos</a></li>
+							<li><a href="performace.html">Performace</a></li>
+							<li><a href="contato.html">Contatos</a></li>
+						</ul>
+					</div>
+			</div>
+	</header><!--Menu topo-->
+
+		<!--Formulário-->
+	<div class="container form">
+				<img src="img/logo3.png" alt="logo-empresa" class="img-responsive">
+				<span> OpenLog</span>
+			<h2 align="center">Cadastre seu contato </h2>
+
+		<form id="form-cadastro">
+			  <div class="form-group">
+			    <label for="nome">Nome:</label>
+			    <input type="text" class="form-control" id="nome" maxlength="50" placeholder="digite seu nome" required>
+			  </div>
+			  <div class="form-group">
+			    <label for="empresa">Empresa:</label>
+			    <input type="text" class="form-control" id="empresa" maxlength="50" placeholder="digite qual sua empresa" required>
+			  </div>	
+			  <div class="form-group">
+			    <label for="Email">Email:</label>
+			    <input type="email" class="form-control" id="Email" placeholder="digite seu email"  required>
+			  </div>
+			  <div class="form-group">
+			    <label for="telefone">Telefone:</label>
+			    <input type="number" class="form-control" id="telefone" maxlength="12" placeholder="(XX)XXXXX-XXXX" required>
+			  </div>
+			  <div class="row">
+				  <button type="button" class="btn btn-primary col-sm-6 botao" onclick="ArmazenaContato(),CadastraContatos()">Enviar Cadastro</button>
+				  <button type="reset" class="btn btn-danger col-sm-6 botao">Limpar Cadastro</button>
+			  </div>
+		</form>
+	</div>
+
+	<!--tabela para armazenamento dos dados -->
+	<div class="container espaco">
+		<h2 class="titulo-tabela">Tabela de Contatos</h2>
+		<div class="col-sm-12 col-xs-12">
+			<table class="table table-hover ">
+				<thead>
+					<tr class="success tabela-Contatos">
+						<td>Nome</td>
+						<td>Empresa</td>
+						<td>Email</td>
+						<td>telefone</td>
+						<td>Excluir Item</td>
+					</tr>
+				</thead>
+				<tbody id="resultadoContato"><!--recebe os resultados na tabela-->
+				</tbody>		
+			</table>
+		</div>	
+		</div><!--fim da tabela-->
+
+		<!--JS-->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/funcaoContatos.js"></script>
+</body>
+</html>
+
+
+
+

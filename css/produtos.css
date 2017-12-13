@@ -1,0 +1,87 @@
+html{
+	height: 100%;
+}
+
+body{
+	background-image:url('../img/fundo.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.tabela{
+width:95%;
+font-weight: bold;
+max-width: 1000px;
+text-align: center;
+margin-top: 2%;	
+border-radius: 10px;
+border:2px solid black;
+margin-left: auto;
+margin-right:auto;
+background: white;
+}
+
+.tamanho{
+	width: 100%;
+}
+
+.tamanho td{
+	margin-left: -2%;
+	font-size: 1em;
+}
+
+.titulo-produto{
+ background-color:orange;
+ width: 60%;
+ margin-left: auto;
+ margin-right: auto; 
+border-top-left-radius: 45px;
+border-top-right-radius: 45px;
+ font-size:2em;
+
+}
+
+
+table ,td{
+	border:1px solid black;
+}
+
+#form-produtos{
+	margin-left: 10%;
+
+}
+#form-produtos  input{
+text-align: left;
+margin-left: 2%;
+width: 80%;
+}
+
+#form-produtos label{
+text-align: left;
+margin-left: -84%;
+}
+
+
+.botao-produto{
+	width: 25%;
+	margin-left: 28%;
+	margin-bottom: 1%;
+}
+
+.titulo-tabela{
+background: lightgreen;
+width: 97%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0px;
+border:1px solid black;
+}
+
+
+.tamanho-tabela{
+width: 100%;
+font-size: 0.8em;
+}

@@ -1,0 +1,78 @@
+html{
+	height: 100%;
+}
+
+body{	
+background-image:url('../img/fundo.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.form{
+margin-left: auto;
+margin-right: auto;
+padding: 5px;
+background: #ccc;
+margin-top: 2%;
+border-radius: 10px;
+height: 600px;
+position: relative;
+}
+
+.form span{
+	font-size: 2em;
+}
+
+.form input{
+width: 80%;
+margin-left: 10%;
+}
+
+.form label{
+	margin-left: 10%;
+}
+
+
+.botao{
+	width: 20%;
+	height: 20%;
+	margin-top: 2%;
+	margin-right:0px auto;
+	margin-left:20%;
+}
+
+.espaco{
+margin-top: 1%;
+}
+
+.tabela-Contatos{
+	margin-top: 1%;
+	border:1px solid black;
+	font-weight: bold;
+}
+
+.tabela-Contatos td{
+	text-align: center;
+	font-size: 1em;
+	border:1px solid black;
+}
+
+/*cor da tabela que sera inserida*/
+.cor-Contatos td{
+background:white;
+border:1px solid black; 
+}
+
+
+.titulo-tabela{
+	background: white;
+	text-align: center;
+	margin-bottom: 0px;
+	width: 97%;
+	border:1px solid black;
+	margin-right: auto;
+	margin-left: auto;
+}
+

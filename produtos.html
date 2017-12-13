@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro Produtos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/produtos.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaProduto.css">
+</head>
+
+<body>
+
+<header class="nav navbar-default cor">
+			<div class="container ">
+					<div class="navbar-header menu ">
+			    	 	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-ligacao" aria-expanded="false">
+				       		 <span class="sr-only">Toggle navigation</span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				      	</button>
+				      	<a class="navbar-brand menu-letras logo"><img src="img/logo3.png" alt="logo da pagina"></a>
+				      	<a class="navbar-brand menu-letras letra-icone">OpenLog</a>
+				      	<a class="navbar-brand menu-letras logo-letra "> OpenLog</a>
+				    </div><!--botão para acionar menu mobile-->
+
+					 <div class="collapse navbar-collapse menu" id="menu-ligacao">    
+						<ul class="nav navbar-nav  menu-letras">
+							<li><a href="home.html">Home</a></li>
+							<li><a href="Produtos.html">Produtos</a></li>
+							<li><a href="performace.html">Performace</a></li>
+							<li><a href="contato.html">Contatos</a></li>
+						</ul>
+					</div>
+			</div>
+	</header><!--Menu topo-->
+
+
+	<!--Formulário para cadastrar produtos -->
+<div class="row tabela ">
+	<h1 class="titulo-produto"> Cadastro de Produtos </h1>
+		<form id="form-produtos">
+				<div class="form-group">
+				    <label for="produto">Tipo de Produto</label>
+				    <input type="text" class="form-control" id="produto" placeholder="digite tipo do produto" required>
+				  </div>	
+				  <div class="form-group">
+				    <label for="descricao">Descrição</label>
+				    <input type="text" class="form-control" id="descricao" placeholder="digite descrição de produto" required>
+				  </div>
+				  <div class="form-group">
+				    <label for="quantidade">Quantidade</label>
+				    <input type="number" class="form-control" id="quantidade" placeholder="digite quantidade" required>
+			   </div>
+			    <div class="form-group">
+				    <label for="valor">Preço Unitário</label>
+				    <input type="number" class="form-control" id="valor" placeholder="digite preço produto" required>
+			   </div>
+			   	<!--botoes de ação-->
+				<div class="row">
+					<button type="submit" class="btn btn-primary col-sm-4 col-xs-12 botao-produto"  onclick="ArmazenaProdutos(),CadastraProdutos()">Adicionar</button>
+				</div>	
+		</form><!--fim do formulário-->
+
+		<!--tabela que recebe produtos cadastrados -->
+		<h2 class="titulo-tabela">Tabela de Produtos</h2>
+	<div class="col-sm-12 col-xs-12">
+		<table class="table table-hover table-responsive ">
+			<thead >
+				<tr class="success tamanho">
+					<td>Tipo de Produto</td>
+					<td>Descrição</td>
+					<td>Qtd Unidade</td>
+					<td>Valor</td>
+					<td>Total</td>
+					<td>Excluir Item</td>
+				</tr>
+			</thead>
+			<tbody id="resultado" ><!--recebe os resultados-->
+			</tbody>		
+		</table>
+	</div>
+</div><!--fim da estrutura da tabela-->				
+
+
+		<!--JS-->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/funcaoProdutos.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+1-index
+Está é a pagina inicial do site onde contém a tela de login e senha para iniciarmos 
+a navegação no site .
+
+login:anselmo@hotmail.com
+senha:123
+
+
+2-home
+Está é a página home do site onde contém um carrossel de apresentação e informações sobre sistema TMS
+com alguns artigos e figuras sobre o mesmo.
+
+
+
+3-performace
+Está é uma página do site onde mostra algumas performaces em gráficos e informações sobre o uso do sistema TMS .
+
+
+4-produtos
+Está é uma página onde podemos cadastras produtos e excluir caso queira retirar da lista de cadastro.
+As informações inseridas no campos são armazenadas no local Storage e também são armazenadas 
+em uma tabela de produtos na nossa página produtos podendo também serem excluído caso seja necessário.
+
+
+5-Contatos
+Está página contém campos para o usuário entrar em contato com a empresa , onde deixará seus dados
+para a empresa retorna o contato através do seus dados como nome da empresa , telefone e email.
+Além disso todos os dados são inseridos no local Storage e também em uma tabela de contatos que 
+é inserida na mesma página . 
